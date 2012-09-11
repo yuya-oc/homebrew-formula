@@ -1,6 +1,6 @@
 require 'formula'
 
-class Ode < Formula
+class OdeYuyaOc < Formula
     homepage 'http://www.ode.org/'
     url 'http://sourceforge.net/projects/opende/files/ODE/0.12/ode-0.12.tar.bz2'
     sha1 '10e7aae6cc6b1afe523ed52e76afd5e06461ea93'
