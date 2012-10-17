@@ -1,6 +1,9 @@
-
 Homebrew formula for yuya-oc
+====
 
-These formula is available.
-ode-yuya-oc
-  ode with drawstuff, libccd, etc...
+**Usage: $ brew tap yuya-oc/homebrew-formula**
+
+These formula are available.
+
+* ode-yuya-oc  
+ode with additional options (drawstuff, libccd)
