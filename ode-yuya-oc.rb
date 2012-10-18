@@ -25,6 +25,7 @@ class OdeYuyaOc < Formula
 
     def install
         args = []
+        args << "--disable-demos"
         args << "--enable-double-precision" if ARGV.include? "--enable-double-precision"
         args << "--enable-libccd" if ARGV.include? "--enable-libccd"
     
