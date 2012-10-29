@@ -1,7 +1,7 @@
 Homebrew formula for yuya-oc
 ====
 
-**Usage: $ brew tap yuya-oc/homebrew-formula**
+**Usage: $ brew tap yuya-oc/formula**
 
 These formula are available.
 
