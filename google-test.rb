@@ -16,7 +16,7 @@ class GoogleTest < Formula
     end
 
     def install
-        system "cmake .", "--prefix=#{prefix}"
+        system "cmake", "--prefix=#{prefix}"
         system "make"
         system "make install"
     end
