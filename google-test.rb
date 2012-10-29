@@ -16,8 +16,10 @@ class GoogleTest < Formula
     end
 
     def install
-        system "cmake", "--prefix=#{prefix}"
+        args = std_cmake_args
+        system 'cmake', *args
         system "make"
-        system "make install"
+        lib.install Dir['libgtest*.a']
+        include.install Dir['include/gtest']
     end
 end
